@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameBlog - Juegos descargables</title>
+  <meta name="description" content="Descubre los mejores juegos indie para descargar gratis. Análisis, requisitos y enlaces.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- Open Graph -->
+  <meta property="og:title" content="GameBlog - Juegos descargables">
+  <meta property="og:description" content="Descubre los mejores juegos indie para descargar gratis.">
+  <meta property="og:image" content="img/og-image.jpg">
+  <meta property="og:url" content="https://modifyapps.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GameBlog - Juegos descargables">
+  <meta name="twitter:description" content="Descubre los mejores juegos indie para descargar gratis.">
+  <meta name="twitter:image" content="img/og-image.jpg">
+  <!-- schema.org -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "GameBlog",
+      "url": "https://modifyapps.github.io/",
+      "description": "Blog de juegos descargables",
+      "author": {
+        "@type": "Person",
+        "name": "Tu Nombre"
+      }
+    }
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header id="site-header"></header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Descubre juegos indie únicos</h1>
+      <p>Análisis, requisitos y enlaces de descarga directa para los mejores títulos seleccionados.</p>
+      <a href="#recent-posts" class="btn btn-primary">Ver juegos</a>
+    </div>
+    <div class="hero-image">
+      <img src="/img/hero-bg.jpg" alt="Hero background">
+    </div>
+  </section>
+
+  <!-- Anuncio superior -->
+  <div class="ad-container ad-top" id="ad-top"></div>
+
+  <!-- Buscador -->
+  <section class="search-section">
+    <div class="container">
+      <input type="text" id="search-input" placeholder="Buscar por nombre, categoría o etiqueta..." aria-label="Buscar juegos">
+    </div>
+  </section>
+
+  <!-- Posts recientes -->
+  <section id="recent-posts" class="posts-section">
+    <div class="container">
+      <h2>Publicaciones recientes</h2>
+      <div class="posts-grid" id="recent-posts-grid"></div>
+    </div>
+  </section>
+
+  <!-- Posts populares -->
+  <section id="popular-posts" class="posts-section">
+    <div class="container">
+      <h2>Más populares</h2>
+      <div class="posts-grid" id="popular-posts-grid"></div>
+    </div>
+  </section>
+
+  <!-- Anuncio entre secciones -->
+  <div class="ad-container ad-between" id="ad-between"></div>
+
+  <!-- Categorías -->
+  <section class="categories-section">
+    <div class="container">
+      <h2>Categorías</h2>
+      <div class="categories-list" id="categories-list"></div>
+    </div>
+  </section>
+
+  <!-- Novedades -->
+  <section class="news-section">
+    <div class="container">
+      <h2>Novedades</h2>
+      <div class="news-content" id="news-content">
+        <p>Próximamente: nuevos juegos y actualizaciones.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="site-footer"></footer>
+
+  <!-- Chat flotante -->
+  <div id="chat-widget">
+    <button id="chat-toggle" aria-label="Abrir chat">💬</button>
+    <div id="chat-container" style="display:none;">
+      <div id="chat-header">Chat</div>
+      <div id="chat-body">
+        <p>Preparado para integrar con Firebase o Supabase.</p>
+      </div>
+      <button id="chat-minimize">−</button>
+      <button id="chat-close">✕</button>
+    </div>
+  </div>
+
+  <script src="js/components.js"></script>
+  <script src="js/posts.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

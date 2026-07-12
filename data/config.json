@@ -1,0 +1,56 @@
+{
+  "siteName": "GameBlog",
+  "siteUrl": "https://ModifyApps.github.io",
+  "logo": "/img/logo.svg",
+  "favicon": "/favicon.ico",
+  "colors": {
+    "primary": "#6C63FF",
+    "secondary": "#FF6584",
+    "accent": "#00D2FF"
+  },
+  "social": {
+    "youtube": "https://youtube.com/c/tucanal",
+    "discord": "https://discord.gg/tuservidor",
+    "telegram": "https://t.me/tucanal",
+    "facebook": "https://facebook.com/tupagina",
+    "patreon": "https://patreon.com/tuusuario",
+    "koFi": "https://ko-fi.com/tuusuario",
+    "paypal": "https://paypal.me/tuusuario",
+    "github": "https://github.com/tuusuario"
+  },
+  "ads": {
+    "enabled": false,
+    "bannerTop": "",
+    "bannerSidebar": "",
+    "bannerBetween": "",
+    "bannerBottom": "",
+    "bannerBeforeDownload": ""
+  },
+  "comments": {
+    "enabled": false,
+    "provider": "giscus",
+    "options": {
+      "repo": "usuario/repo",
+      "repoId": "R_kgDO...",
+      "category": "Announcements",
+      "categoryId": "DIC_kwDO..."
+    }
+  },
+  "chat": {
+    "enabled": false,
+    "provider": "firebase",
+    "options": {}
+  },
+  "seo": {
+    "title": "GameBlog - Juegos descargables",
+    "description": "Descubre los mejores juegos indie para descargar gratis. Análisis, requisitos y enlaces.",
+    "keywords": "juegos, descargar juegos, juegos indie, juegos gratis",
+    "author": "Tu Nombre",
+    "ogImage": "/img/og-image.jpg",
+    "twitterCard": "summary_large_image"
+  },
+  "analytics": {
+    "enabled": false,
+    "googleAnalyticsId": "UA-XXXXXXXXX-X"
+  }
+}

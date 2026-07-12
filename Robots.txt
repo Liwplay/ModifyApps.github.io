@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ModifyApps.github.io/sitemap.xml

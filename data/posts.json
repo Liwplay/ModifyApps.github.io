@@ -1,0 +1,67 @@
+[
+  {
+    "id": "cyber-race-2077",
+    "title": "Cyber Race 2077",
+    "slug": "cyber-race-2077",
+    "url": "/posts/cyber-race-2077.html",
+    "category": "Carreras",
+    "date": "2026-07-10",
+    "author": "Carlos G.",
+    "views": 1240,
+    "image": "/img/posts/cyber-race.jpg",
+    "description": "Corre por las calles neonales de la ciudad futurista en este juego de carreras arcade con gráficos impresionantes.",
+    "tags": ["carreras", "arcade", "futurista", "neon"]
+  },
+  {
+    "id": "dungeon-quest",
+    "title": "Dungeon Quest",
+    "slug": "dungeon-quest",
+    "url": "/posts/dungeon-quest.html",
+    "category": "Aventura",
+    "date": "2026-07-08",
+    "author": "Laura M.",
+    "views": 980,
+    "image": "/img/posts/dungeon-quest.jpg",
+    "description": "Explora mazmorras generadas proceduralmente, lucha contra criaturas y recoge tesoros en este RPG de acción.",
+    "tags": ["rpg", "aventura", "mazmorras", "acción"]
+  },
+  {
+    "id": "space-colony",
+    "title": "Space Colony",
+    "slug": "space-colony",
+    "url": "/posts/space-colony.html",
+    "category": "Estrategia",
+    "date": "2026-07-05",
+    "author": "Miguel R.",
+    "views": 750,
+    "image": "/img/posts/space-colony.jpg",
+    "description": "Construye y gestiona tu propia colonia en el espacio exterior. Supervivencia, recursos y exploración.",
+    "tags": ["estrategia", "construcción", "ciencia ficción", "gestión"]
+  },
+  {
+    "id": "pixel-hero",
+    "title": "Pixel Hero",
+    "slug": "pixel-hero",
+    "url": "/posts/pixel-hero.html",
+    "category": "Plataformas",
+    "date": "2026-07-01",
+    "author": "Ana S.",
+    "views": 620,
+    "image": "/img/posts/pixel-hero.jpg",
+    "description": "Un plataformas retro con mecánicas clásicas y un estilo pixel art encantador. Salta, dispara y salva el reino.",
+    "tags": ["plataformas", "retro", "pixel art", "acción"]
+  },
+  {
+    "id": "rts-empire",
+    "title": "RTS Empire",
+    "slug": "rts-empire",
+    "url": "/posts/rts-empire.html",
+    "category": "Estrategia",
+    "date": "2026-06-28",
+    "author": "Javier L.",
+    "views": 540,
+    "image": "/img/posts/rts-empire.jpg",
+    "description": "Comanda tu ejército, construye bases y conquista territorios en este RTS de época medieval.",
+    "tags": ["estrategia", "medieval", "guerra", "construcción"]
+  }
+]
